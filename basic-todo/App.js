@@ -16,7 +16,7 @@ export default function App() {
 
 const styles = StyleSheet.create({
   appContainer: {
-    flex: 1, // take all available space
+    flex: 1,
     paddingTop: 50,
     paddingHorizontal: 16,
   },
@@ -24,7 +24,7 @@ const styles = StyleSheet.create({
     flex: 1,
     flexDirection: "row",
     justifyContent: "space-between",
-    alignItems: "center", // if 'stretch' , button text would look off
+    alignItems: "center",
     marginBottom: 24,
     borderBottomWidth: 1,
     borderBottomColor: "#cccccc",
@@ -32,11 +32,11 @@ const styles = StyleSheet.create({
   textInput: {
     borderWidth: 1,
     borderColor: "#cccccc",
-    width: "70%", // always be sure of what width you are giving
+    width: "70%",
     marginRight: 8,
     padding: 8,
   },
   goalsContainer: {
-    flex: 5, // take 5 fraction of space.s
+    flex: 5,
   },
 });
